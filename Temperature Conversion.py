@@ -1,9 +1,7 @@
-   
 print("PROGRAM KONVERTER SUHU")
 
-
 def main():
-    #celsius
+    #=====celsius=====
     celsius = float(input("Masukkan suhu dalam celsius: "))
     print("Suhu adalah ", celsius , "celsius")
 
@@ -17,7 +15,7 @@ def main():
     print("Suhu adalah ", kelvin , "kelvin")
 
 
-    #reamur
+    #=====reamur======
     reamur = float(input("Masukkan suhu dalam reamur: "))
     print("Suhu adalah ", reamur , "reamur")
     
@@ -31,8 +29,7 @@ def main():
     print("Suhu adalah ", kelvin , "kelvin")
 
 
-
-    #farenheit
+    #======farenheit======
     farenheit = float(input("Masukkan suhu dalam farenheit: "))
     print("Suhu adalah ", farenheit , "farenheit")
 
@@ -46,7 +43,7 @@ def main():
     print("Suhu adalah ", kelvin , "kelvin")
 
 
-    #kelvin
+    #=====kelvin=====
     kelvin = float(input("Masukkan suhu dalam kelvin: "))
     print("Suhu adalah ", kelvin , "kelvin")
 
@@ -60,6 +57,7 @@ def main():
     print("Suhu adalah ", reamur , "reamur")
 
 
+    #=====looping=====
     print("Terima kasih sudah menggunakan program ini :)")
     print("Apakah mau mencoba lagi?")
     print("1 = Iya")
